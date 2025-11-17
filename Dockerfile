@@ -8,7 +8,7 @@ WORKDIR /Palautusrepositorio
 
 # Kopioidaan riippuvuustiedosto ja asennetaan riippuvuudet
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt  
 
 # Kopioidaan sovelluskoodi
 COPY app.py .
