@@ -1,6 +1,6 @@
 # Täytä kommenttien alle tarvittavat
 
-# Perustana virallinen Python-image
+# Perustana virallinen Python-image 
 FROM python:3.10
 
 # Työhakemisto kontissa
